@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bootstrap/css/jquery.fancybox.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js">
+  <title>Hamro Shiksya</title>
+</head>
+
+<body>
+  <div class="container-fluid m-0 p-0" style="">
+    <nav class="navbar navbar3 fixed-top navbar-expand-lg"
+      style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1%, rgba(0, 0, 0, 0.07) 76%, transparent 50%);">
+      <a class="navbar-brand" href="http://saralshikshya.com">
+        <div id="logo" class="logo">
+          <img src="./images/Hamro-sikshya.png" width="100%" height="auto">
+        </div>
+      </a>
+      <button onclick="myFunction(x)" class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </button>
+      <div class="collapse navbar-collapse nav-collap" id="navbarContent">
+        <ul class="navbar-nav ml-auto text-center;" style="width:100%;">
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#" style="font-size: 16px; font-weight: 400;">Home</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#" style="font-size: 16px; font-weight: 400;">News</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#" style="font-size: 16px; font-weight: 400;">Inquery Form</a>
+          </li>
+
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#" style="font-size: 16px; font-weight: 400;">Events</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#" style="font-size: 16px; font-weight: 400;">Ask and Answer</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#" style="font-size: 16px; font-weight: 400;">About Us</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#" style="font-size: 16px; font-weight: 400;">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="model-hero-img">
+
+    </div>
+  </div>
+  <!--Form content starts here-->
+  <div class="container jumbotron">
+    <div class="form-heading mb-3 text-center">
+      <span class="bg-warning" style="padding:10px;font-weight:700;font-size:1.5rem;word-spacing:5px;">Entrance
+        Admission Fill Up form for Entrance Class</span>
+    </div>
+    <div style="margin:10px;">
+      <p>this is for some paragraph text.... lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. A itaque neque exercitationem repudiandae possimus inventore vero est rem quisquam. Laboriosam rerum sint praesentium dolorem, non asperiores quo beatae maxime quis?</p>
+    </div>
+    <form class="for-form" style="border:1px solid black;padding:10px;border-radius:10px;">
+      <div class="form-wrapper">
+        <div class="name-description">
+          <label>Student Name</label>
+        </div>
+        <div class="row fom-gap">
+          <div class="col-md-4">
+            <input type="text" placeholder="First Name" id="f-name" name="f-name">
+          </div>
+          <div class="col-md-4">
+            <input type="text" placeholder="Middle Name" id="m-name" name="m-name">
+          </div>
+          <div class="col-md-4">
+            <input type="text" placeholder="last Name" id="l-name" name="l-name">
+          </div>
+        </div>
+        <div class="row fom-gap">
+          <div class="col-md-6">
+            <label class="control-label" for="date">Date</label>
+            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Gender</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option selected>Choose...</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Others</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row fom-gap">
+          <div class="col-md-6">
+            <label>Temporary Address</label>
+            <input type="text" name="t-address" placeholder="Temporary Address" id="t-address">
+          </div>
+          <div class="col-md-6">
+            <label>Parmanent Address</label>
+            <input type="text" placeholder="Parmanent Address" name="t-address" id="p-address">
+          </div>
+        </div>
+        <div class="row fom-gap">
+          <div class="col-md-6">
+            <label>Email Address</label>
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+          </div>
+          <div class="col-md-6">
+            <label>Phone Number</label>
+            <input type="text" name="t-address" id="p-address" placeholder="phone no.">
+          </div>
+        </div>
+        <div style="margin-left:16px;">
+          <label>How did you hear about us?</label>
+        </div>
+        <div class="row fom-gap" style="margin-left:16px;">
+                <div class="form-check col-md-2">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Friends
+                  </label>
+                </div>
+                <div class="form-check col-md-2">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Website
+                  </label>
+                </div>
+                <div class="form-check col-md-2">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                  <label class="form-check-label" for="gridRadios3">
+                    Facebook
+                  </label>
+                </div>
+                <div class="form-check col-md-2">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option4">
+                  <label class="form-check-label" for="gridRadios4">
+                    Advertisemnt
+                  </label>
+                </div>
+                <div class="form-check col-md-2">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option4">
+                  <label class="form-check-label" for="gridRadios4">
+                    others
+                  </label>
+                </div>
+        </div>
+        <div style="margin-left:16px;">
+          <label>In Which Course You are Interested?</label>
+      </div>
+        <div class="row fom-gap" style="margin-left:16px;">
+              <div class="form-check col-md-2">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  BSC.CSIT
+                </label>
+              </div>
+              <div class="form-check col-md-2">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  BCA
+                </label>
+              </div>
+              <div class="form-check col-md-2">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                <label class="form-check-label" for="gridRadios3">
+                  CMAT
+                </label>
+              </div>
+              <div class="form-check col-md-2">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                <label class="form-check-label" for="gridRadios3">
+                  SEE Bridge Course(Science)
+                </label>
+              </div>
+              <div class="form-check col-md-2">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                <label class="form-check-label" for="gridRadios3">
+                  SEE Bridge Course(Science)
+                </label>
+              </div>
+
+          </div>
+        </div>
+        <div class="row fom-gap">
+          <div class="col-md-12">
+            <label>Academic Qualification</label>
+            <div class="row" style="margin-bottom:10px;">
+              <div class="col-md-2">
+                <label>SEE/SLC</label>
+              </div>
+              <div class="col-md-4">
+                <input type="text" placeholder="marks Obtain">
+              </div>
+              <div class="col-md-2">
+                <label>Pass Year</label>
+              </div>
+              <div class="col-md-4">
+                <input type="text" placeholder="Pass Year">
+              </div>
+            </div>
+            <div class="row" style="margin-bottom:10px;">
+              <div class="col-md-2">
+                <label>+2/Equivalent</label>
+              </div>
+              <div class="col-md-4">
+                <input type="text" placeholder="Pass Year">
+              </div>
+              <div class="col-md-2">
+                <label>pass Year</label>
+              </div>
+              <div class="col-md-4">
+                <input type="text" placeholder="Pass Year">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row fom-gap">
+          <div class="col-12" style="">
+            <div class="d-flex">
+              <label>Intake</label>
+              <div class="form-check" style="margin-left:10px;">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  Morning Shift
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Day Shift
+                </label>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="input-button text-center" style="margin-top:20px;">
+          <input type="submit" id="submit" value="submit" class="btn btn-primary submit">
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!--Form content ends here-->
+  <!--Footer content-->
+  <div class="container-fluid jumbotron " style="margin-bottom:0px;">
+    <div class="row footer text-center">
+      <div class="col-md-3">
+        <div>
+          <h2 style="text-decoration: underline wavy red;">Hamro Sikshya</h2>
+        </div>
+        <div>
+          <p>Hamro Sikshya is an Educational platform to provide student a better education for better
+            future...Read more...
+          </p>
+        </div>
+        <div class="social-icon">
+          <a href="#">
+            <i class="fa fa-facebook-official" style="font-size:24px"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-google-plus" style="font-size:24px"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-twitter" style="font-size:24px"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-instagram" style="font-size:24px"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div>
+          <h2 style="text-decoration: underline wavy red;">Quick Links</h2>
+        </div>
+        <div class="footer-2nd-ul">
+          <ul>
+            <li><a href="#">Study Material</a>
+            <li><a href="#">Colleges</a></li>
+            <li><a href="#">Information</a></li>
+            <li><a href="#">Blog Articles</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Notices & Result</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="col-md-3">
+        <div class="footer-3rd-ul">
+          <h2 style="text-decoration: underline wavy red;">Our Services</h2>
+          <div>
+            <div>
+              <ul>
+                <li><a href="#">Study Material</a>
+                <li><a href="#">Colleges</a></li>
+                <li><a href="#">Information</a></li>
+                <li><a href="#">Blog Articles</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div>
+          <h2 style="text-decoration: underline wavy red;">Contact Us</h2>
+        </div>
+        <div class="footer-4th-ul">
+          <ul>
+            <li>phone number</li>
+            <li>example@gmail.com</li>
+          </ul>
+        </div>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56503.96997618651!2d85.304391!3d27.732778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2781d5ac2251b87d!2sHamro%20Entrance%20Academy-%20BSc.CSIT%2F%20BCA%2F%20CMAT%20Entrance%20Preparation!5e0!3m2!1sen!2sus!4v1581397788603!5m2!1sen!2sus"
+            width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end of footer-->
+  <div class="container-fluid bottom-footer bg-dark pt-2">
+    <div class="row">
+      <div class="col-12 text-center" style="color:white;">
+        <p>Copyrights © 2020 - All rights reserved</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Include jQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+  <!-- Include Date Range Picker -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+
+  <script>
+    $(document).ready(function () {
+      var date_input = $('input[name="date"]'); //our date input has the name "date"
+      var container = $('.bootstrap-iso form').length > 0 ? $('.bootstrap-iso form').parent() : "body";
+      date_input.datepicker({
+        format: 'mm/dd/yyyy',
+        container: container,
+        todayHighlight: true,
+        autoclose: true,
+      })
+    })
+  </script>
+
+  <script src="./script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+  <script src="bootstrap/js/jquery.fancybox.js"></script>
+  <script src="bootstrap/js/jquery.fancybox.min.js"></script>
+</body>
+
+</html>

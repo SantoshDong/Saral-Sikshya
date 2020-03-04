@@ -1,0 +1,152 @@
+
+*{
+    padding:0px;
+    margin:0px;
+}
+.fancybox-overlay {
+    overflow-x: hidden!important;
+    overflow-y:hidden!important;
+    }
+.for-all-post{
+    width:auto;
+    position:relative;
+    top:0;
+    right:0px;transition:all 0.3s ease-in-out;
+    overflow:hidden;
+    margin-top:-10px;
+    bottom:0;
+    background-color:#ffffff;
+}
+.fom-gap{
+    margin-bottom:10px;
+    margin-left:0%;
+}
+.compensate-for-scrollbar {
+    margin-right: 0px!important;
+}
+.mock-test,.model-color,.model-q{
+    border-radius:10px;
+}
+.form-check{
+    margin-right:10px;
+}
+.for-all-post:hover{
+    visibility:visible!important;
+    margin-top:-30px;
+}
+
+.continue {
+    display: block;
+    visibility:visible;
+    height: 0;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    color: #DA2532;
+}
+/*css for the models question web page*/
+.model-text{
+    padding:10px;
+}
+.model-hero-img {
+    background-image: url(./Images/Book-bridge-1.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+    z-index: 1;
+  }
+  #navbarContent ul{
+      float:left;
+  }
+  #navbarContent ul li a{
+      margin:0px 20px;
+      color:white;
+      text-decoration:none;
+      text-transform:uppercase;
+      font-weight:700;
+      letter-spacing:1px;
+  }
+  #navbarContent ul li a:hover{
+      color:red;
+  }
+  .mock-test{
+      margin:10px 0px;
+  }
+  .model-q{
+      margin:10px 0px;
+  }
+  .gallery {
+    background-image: url(./Images/background-gallery.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+.figure figcaption{
+    color:white;
+}
+.navbar3{
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+input[type="text"]{
+    width:100%;
+    padding:5px;
+}
+.input-button input[type="submit"]{
+    padding:10px 20px;
+    font-weight:700;
+    letter-spacing:2px;
+    Text-transform:Uppercase;
+    
+}
+.input-button input[type="submit"]:hover{
+    color:black;;
+}
+.navbar3 .nav-collap ul li a:hover{
+    color:black!important;
+    font-weight:900;
+    letter-spacing:2px; 
+}
+@media only screen and (max-width:990px){
+    .model-hero-img {
+        height: 60vh;
+
+    }
+
+    #navbarContent ul li a{
+        margin:0px 20px;
+        color:black;
+    }
+    .navbar-toggler-icon {
+        color:black;
+    }
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      .navbar3{
+        padding-top: 0px;
+        padding-bottom: 20px;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1%, rgba(0, 0, 0, 0.07) 76%, transparent 50%)!important;
+      }
+      .navbar3 .nav-collap ul li a{
+         color:white!important;   
+         background-color:black;
+      }
+      .navbar3 .nav-collap ul li a:hover{
+          color:lightseagreen!important; 
+      }
+      .logo {
+        height: 50px;
+        width: 106px;
+      }  
+      .nav-collap{
+         margin-top:15px; 
+      }  
+}
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1%, rgba(0, 0, 0, 0.07) 76%, transparent 100%);
